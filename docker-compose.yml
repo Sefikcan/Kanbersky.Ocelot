@@ -1,0 +1,20 @@
+version: '3'
+services: # Çalışacak servisleri ekledik,portları set ettik
+	order-api:
+		image: sefikcankanber/kanberskyorderservice
+		ports:
+		   - 7001:80
+		depends_on: #Bağımlılığımızı belirttik
+		   - gateway-api
+
+	product-api:
+		image: sefikcankanber/kanberskyproductservice
+		ports:
+		   - 7002:80
+		depends_on: #Bağımlılığımızı belirttik
+		   - gateway-api
+
+	gateway-api:
+		image: sefikcankanber/kanberskygatewayapi
+		ports:
+		   - 7000:80	
