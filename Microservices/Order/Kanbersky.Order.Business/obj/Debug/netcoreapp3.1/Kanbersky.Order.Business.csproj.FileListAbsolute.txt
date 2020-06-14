@@ -1,0 +1,16 @@
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\bin\Debug\netcoreapp3.1\Kanbersky.Order.Business.deps.json
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\bin\Debug\netcoreapp3.1\Kanbersky.Order.Business.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\bin\Debug\netcoreapp3.1\Kanbersky.Order.Business.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\bin\Debug\netcoreapp3.1\Kanbersky.Ocelot.Core.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\bin\Debug\netcoreapp3.1\Kanbersky.Order.DAL.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\bin\Debug\netcoreapp3.1\Kanbersky.Order.Entities.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\bin\Debug\netcoreapp3.1\Kanbersky.Order.DAL.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\bin\Debug\netcoreapp3.1\Kanbersky.Order.Entities.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\bin\Debug\netcoreapp3.1\Kanbersky.Ocelot.Core.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\obj\Debug\netcoreapp3.1\Kanbersky.Order.Business.csprojAssemblyReference.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\obj\Debug\netcoreapp3.1\Kanbersky.Order.Business.AssemblyInfoInputs.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\obj\Debug\netcoreapp3.1\Kanbersky.Order.Business.AssemblyInfo.cs
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\obj\Debug\netcoreapp3.1\Kanbersky.Order.Business.csproj.CopyComplete
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\obj\Debug\netcoreapp3.1\Kanbersky.Order.Business.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\obj\Debug\netcoreapp3.1\Kanbersky.Order.Business.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.Business\obj\Debug\netcoreapp3.1\Kanbersky.Order.Business.csproj.CoreCompileInputs.cache

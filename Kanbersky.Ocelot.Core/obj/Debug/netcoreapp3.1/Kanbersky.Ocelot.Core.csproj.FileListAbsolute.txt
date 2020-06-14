@@ -1,0 +1,8 @@
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Kanbersky.Ocelot.Core\bin\Debug\netcoreapp3.1\Kanbersky.Ocelot.Core.deps.json
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Kanbersky.Ocelot.Core\bin\Debug\netcoreapp3.1\Kanbersky.Ocelot.Core.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Kanbersky.Ocelot.Core\bin\Debug\netcoreapp3.1\Kanbersky.Ocelot.Core.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Kanbersky.Ocelot.Core\obj\Debug\netcoreapp3.1\Kanbersky.Ocelot.Core.AssemblyInfoInputs.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Kanbersky.Ocelot.Core\obj\Debug\netcoreapp3.1\Kanbersky.Ocelot.Core.AssemblyInfo.cs
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Kanbersky.Ocelot.Core\obj\Debug\netcoreapp3.1\Kanbersky.Ocelot.Core.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Kanbersky.Ocelot.Core\obj\Debug\netcoreapp3.1\Kanbersky.Ocelot.Core.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Kanbersky.Ocelot.Core\obj\Debug\netcoreapp3.1\Kanbersky.Ocelot.Core.csproj.CoreCompileInputs.cache

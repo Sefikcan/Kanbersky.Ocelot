@@ -1,0 +1,42 @@
+-->Api-Gateway
+Öncelikle mikroservis yapýsýndan kýsaca bahsedelim; Mikroservis yapýsý sürekli ve plansýz bir þekilde büyüyen monolithic yapýdaki servislerin,beraberinde getirdiði karmaþýklýðý ve yönetim zorluklarýný çözmeye odaklanmaktadýr.
+
+-> Mikroservis mimarisinin avantajlarý
+•	Maintenance kolay olur ve code base sadeleþir.
+•	Birbirlerinden baðýmsýz olarak her bir servis deðiþtirilebilir, kolay test ve build yapýlabilir.
+•	Servisler birbirinden baðýmsýz olarak scale edilebilir.
+•	Versiyonlama yönetimi kolaylaþýr.
+•	Her bir mikroservise farklý dilde ve farklý framework’lerde geliþtirilebilir.
+
+**  Api Consumer, response’u oluþturmak için içerde kaç tane istek yapýldýðýný bilmez. Hangi servislere istek atýlacaðý sadece gateway kontrolündedir. Bu þeffaflýk api-gateway pattern’inin temel mantýðýdýr.
+
+-> Api-Gateway temel davranýþlarý;
+•	Router: Mikroservisler arasýnda haberleþmeyi saðlar. Bir servisten diðerine gelen istekleri iletir(Service Discovery).
+•	Data aggregator: Mikroservisler arasýnda bilgi toplayarak ve bunlarý zengin bir response halinde baðlý olduðu Api Consumer’a iletir. Bu durumda Backend For Frontend (BFF) gibi davranmýþ olur.
+•	Protocol abstraction layer: Api-gateway’e Rest Api veya GraphQL üzerinden gelen isteklerle yani protocol ve teknoloji farketmeksizin içerdeki mikroservislerin iletiþimini saðlar.
+•	Centralized error management: Bir servise ulaþýlamadýðý zaman veya servis aþýrý yavaþ cevap vermeye baþladýðý zaman api-gateway ölümcül hatalarýn yayýlmamasý için cache den default response’lar saðlamaya baþlar. Sistemi daha güvenilir ve esnek hale getirmek için eriþelemeyen servis yeniden ayaða kalkana kadar kapatýlýr(Circuit Breaker).
+
+-> Api-Gateway Avantajlarý
+•	Clientlarý, uygulamanýn microservislere nasýl bölündüðü hususunda düþünmekten izole eder.
+•	Sizin microservisleriniz sizin ana domainler ile yazdýðýnýz microservislerdir. Bu servisleri kullanarak client için en uygun apiyi API GATEWAY üzerinden hazýrlayýp sunabilirsiniz.
+•	Request/ Response sayýsýný azaltýr. Örneðin, API Gateway, müþterilerin tek bir request-response ile birden fazla servisten data almalarýný saðlar. Daha az istek, daha az ek yük anlamýna gelir ve kullanýcý deneyimini geliþtirir.
+•	Authenctication, Autherization, Logging, Security, Routing gibi cross cutting concern kavramlarý tek elden yönetebilmeyi saðlar.
+
+-> Apigateway’in Dezavantajlarý
+•	API networkü üzerine bir ek katman koyarak yanýt süresinin artmasýna sebep olabilir.  Ancak çoðu uygulama için fazladan bir gidiþ dönüþ maliyeti önemsizdir.
+•	Increased Complexity – API gateway  development’i, deploy’u ve maintenance’ý gereken ayrý bir projedir.
+•	Single entry point of failure : Api gatewayler iç microservis dünyanýza giriþ yapýlan tek kapý olduðundan çöktüðü zaman bir anda tüm sistem aksaklýða uðrayabilir.
+
+-> .Net Core Projesine Ocelot Implementasyonu
+•	Ýlk olarak ocelot.json dosyamýzý api-gateway projemize ekliyoruz.
+•	Api gateway projesinin Program.cs dosyasýnýn CreateWebHostBuilder metoduna ocelot.json dosyamýzýn eklenmesi saðlayan kodu ekliyoruz.
+ConfigureAppConfiguration((host, config) =>
+            {
+                config.AddJsonFile("ocelot.json");
+            }))
+
+-> Ocelot.json da kullanýlan bazý özel keywordler;
+•	GlobalConfiguration kýsmýnda gatewayin urli'ni tanýmlarýz.
+•	DownstreamPathTemplate ilgili servisteki route'unu tanýmlarýz.
+•	DownstreamHostAndPorts ilgili servisin host bilgilerini tanýmlarýz.
+•	UpstreamPathTemplate kullanýcýnýn Gateway üzerinden geleceði route belirtilir.

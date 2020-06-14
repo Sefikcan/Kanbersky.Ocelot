@@ -1,0 +1,12 @@
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Entities\bin\Debug\netcoreapp3.1\Kanbersky.Product.Entities.deps.json
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Entities\bin\Debug\netcoreapp3.1\Kanbersky.Product.Entities.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Entities\bin\Debug\netcoreapp3.1\Kanbersky.Product.Entities.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Entities\bin\Debug\netcoreapp3.1\Kanbersky.Ocelot.Core.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Entities\bin\Debug\netcoreapp3.1\Kanbersky.Ocelot.Core.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Entities\obj\Debug\netcoreapp3.1\Kanbersky.Product.Entities.csprojAssemblyReference.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Entities\obj\Debug\netcoreapp3.1\Kanbersky.Product.Entities.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Entities\obj\Debug\netcoreapp3.1\Kanbersky.Product.Entities.AssemblyInfoInputs.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Entities\obj\Debug\netcoreapp3.1\Kanbersky.Product.Entities.AssemblyInfo.cs
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Entities\obj\Debug\netcoreapp3.1\Kanbersky.Product.Entities.csproj.CopyComplete
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Entities\obj\Debug\netcoreapp3.1\Kanbersky.Product.Entities.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Entities\obj\Debug\netcoreapp3.1\Kanbersky.Product.Entities.pdb

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Kanbersky.Ocelot.Core\Kanbersky.Ocelot.Core.csproj" />
+    <ProjectReference Include="..\Kanbersky.Product.DAL\Kanbersky.Product.DAL.csproj" />
+    <ProjectReference Include="..\Kanbersky.Product.Entities\Kanbersky.Product.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

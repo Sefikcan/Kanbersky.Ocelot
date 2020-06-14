@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Kanbersky.Ocelot.Core\Kanbersky.Ocelot.Core.csproj" />
+    <ProjectReference Include="..\Kanbersky.Order.DAL\Kanbersky.Order.DAL.csproj" />
+    <ProjectReference Include="..\Kanbersky.Order.Entities\Kanbersky.Order.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

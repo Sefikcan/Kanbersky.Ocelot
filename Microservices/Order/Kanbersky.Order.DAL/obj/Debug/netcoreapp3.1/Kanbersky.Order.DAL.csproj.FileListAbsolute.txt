@@ -1,0 +1,14 @@
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Order.DAL.deps.json
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Order.DAL.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Order.DAL.AssemblyInfoInputs.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Order.DAL.AssemblyInfo.cs
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Ocelot.Core.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Order.Entities.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Order.DAL.csprojAssemblyReference.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Order.DAL.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Order.Entities.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Ocelot.Core.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Order.DAL.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Order.DAL.csproj.CopyComplete
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Order.DAL.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Order\Kanbersky.Order.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Order.DAL.pdb
