@@ -1,3 +1,4 @@
+using Autofac.Extensions.DependencyInjection;
 using Kanbersky.Ocelot.Core.Helpers;
 using Kanbersky.Ocelot.Core.Helpers.Logging;
 using Kanbersky.Ocelot.Core.Settings.Concrete;
@@ -33,9 +34,10 @@ namespace Kanbersky.Product.Api
         /// <returns></returns>
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+            .UseServiceProviderFactory(new AutofacServiceProviderFactory())
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            });
     }
 }

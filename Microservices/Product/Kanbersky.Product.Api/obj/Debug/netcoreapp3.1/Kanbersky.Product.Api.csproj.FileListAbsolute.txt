@@ -115,9 +115,6 @@ D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Pr
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
-D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\obj\Debug\netcoreapp3.1\Kanbersky.Product.Api.csproj.CoreCompileInputs.cache
-D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\obj\Debug\netcoreapp3.1\Kanbersky.Product.Api.MvcApplicationPartsAssemblyInfo.cs
-D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\obj\Debug\netcoreapp3.1\Kanbersky.Product.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\bin\Debug\netcoreapp3.1\Serilog.dll
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
@@ -126,3 +123,10 @@ D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Pr
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\bin\Debug\netcoreapp3.1\Serilog.Sinks.Elasticsearch.dll
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\bin\Debug\netcoreapp3.1\Serilog.Sinks.PeriodicBatching.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\bin\Debug\netcoreapp3.1\Kanbersky.Product.Api.xml
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\bin\Debug\netcoreapp3.1\Autofac.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\obj\Debug\netcoreapp3.1\Kanbersky.Product.Api.xml
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\obj\Debug\netcoreapp3.1\Kanbersky.Product.Api.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\obj\Debug\netcoreapp3.1\Kanbersky.Product.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Api\obj\Debug\netcoreapp3.1\Kanbersky.Product.Api.MvcApplicationPartsAssemblyInfo.cache

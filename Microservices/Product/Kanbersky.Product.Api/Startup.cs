@@ -1,6 +1,8 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Kanbersky.Ocelot.Core.Extensions;
-using Kanbersky.Product.Business.Extensions;
-using Kanbersky.Product.DAL.Extensions;
+using Kanbersky.Product.Business.DependencyResolvers.Autofac;
+using Kanbersky.Product.DAL.DependencyResolvers.Autofac;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -38,9 +40,7 @@ namespace Kanbersky.Product.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.RegisterKanberskyCoreServices(Configuration);
-            services.RegisterProductDAL();
-            services.RegisterProductServices();
-
+         
             services.AddControllers().AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
             services.AddSwaggerGen(c =>
@@ -61,6 +61,16 @@ namespace Kanbersky.Product.Api
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
             });
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="containerBuilder"></param>
+        public void ConfigureContainer(ContainerBuilder containerBuilder)
+        {
+            containerBuilder.RegisterModule(new AutofacDALModule());
+            containerBuilder.RegisterModule(new AutofacBusinessModule());
         }
 
         /// <summary>

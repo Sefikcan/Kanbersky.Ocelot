@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Kanbersky.Product.Business/1.0.0": {
         "dependencies": {
+          "Autofac": "5.2.0",
           "Kanbersky.Ocelot.Core": "1.0.0",
           "Kanbersky.Product.DAL": "1.0.0",
           "Kanbersky.Product.Entities": "1.0.0",
@@ -15,6 +16,14 @@
         },
         "runtime": {
           "Kanbersky.Product.Business.dll": {}
+        }
+      },
+      "Autofac/5.2.0": {
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.0"
+          }
         }
       },
       "Dapper/2.0.35": {
@@ -461,6 +470,7 @@
       },
       "Kanbersky.Product.DAL/1.0.0": {
         "dependencies": {
+          "Autofac": "5.2.0",
           "Dapper": "2.0.35",
           "Kanbersky.Product.Entities": "1.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.5",
@@ -486,6 +496,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Autofac/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V8dBH0dsv75uDzl7Sw+HkhKDPUw2eXnlMjcSVMH+tLo2s67MpTKGyDj1pDcpR+IF2u4YRs0s3/x7R88YJzIWvg==",
+      "path": "autofac/5.2.0",
+      "hashPath": "autofac.5.2.0.nupkg.sha512"
     },
     "Dapper/2.0.35": {
       "type": "package",

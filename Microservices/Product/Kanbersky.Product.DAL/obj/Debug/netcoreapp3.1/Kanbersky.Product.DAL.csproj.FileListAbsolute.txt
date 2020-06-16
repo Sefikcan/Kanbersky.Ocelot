@@ -8,7 +8,7 @@ D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Pr
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Product.DAL.dll
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Product.DAL.pdb
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.DAL\bin\Debug\netcoreapp3.1\Kanbersky.Product.Entities.pdb
-D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Product.DAL.csproj.CoreCompileInputs.cache
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Product.DAL.csproj.CopyComplete
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Product.DAL.dll
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Product.DAL.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.DAL\obj\Debug\netcoreapp3.1\Kanbersky.Product.DAL.csproj.CoreCompileInputs.cache

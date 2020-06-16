@@ -5,7 +5,6 @@ D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Pr
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Business\obj\Debug\netcoreapp3.1\Kanbersky.Product.Business.csprojAssemblyReference.cache
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Business\obj\Debug\netcoreapp3.1\Kanbersky.Product.Business.AssemblyInfoInputs.cache
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Business\obj\Debug\netcoreapp3.1\Kanbersky.Product.Business.AssemblyInfo.cs
-D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Business\obj\Debug\netcoreapp3.1\Kanbersky.Product.Business.csproj.CoreCompileInputs.cache
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Business\bin\Debug\netcoreapp3.1\Kanbersky.Product.Business.deps.json
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Business\bin\Debug\netcoreapp3.1\Kanbersky.Product.Business.dll
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Business\bin\Debug\netcoreapp3.1\Kanbersky.Product.Business.pdb
@@ -14,3 +13,4 @@ D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Pr
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Business\obj\Debug\netcoreapp3.1\Kanbersky.Product.Business.csproj.CopyComplete
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Business\obj\Debug\netcoreapp3.1\Kanbersky.Product.Business.dll
 D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Business\obj\Debug\netcoreapp3.1\Kanbersky.Product.Business.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.Ocelot\Microservices\Product\Kanbersky.Product.Business\obj\Debug\netcoreapp3.1\Kanbersky.Product.Business.csproj.CoreCompileInputs.cache

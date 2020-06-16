@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "N8dkcRA1ouqGfdijVOOHkKBbLCEnUO6F3sYha7YdxMQ+5TsnjvnXhhYJRCz4hM3Le0d2IXNIR5gOaPu1myxraA==",
+  "dgSpecHash": "axRoeg8eWPOS67VVSkIJqo1Y8LKx19gxUVk/t7F/I6yeRuYBgT9NfK25ZZni0dnBBmFEmr15mfZCBLRFhTi9Lg==",
   "success": true,
   "projectFilePath": "D:\\WorkSpaces\\Back-end\\Other\\Kanbersky.Ocelot\\Microservices\\Product\\Kanbersky.Product.Business\\Kanbersky.Product.Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\elasticsearch.net\\7.0.0\\elasticsearch.net.7.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -1,0 +1,29 @@
+-> Net.Core Projelerinde Autofac Implementasyonu
+* Ýlk olarak Program.cs'ye             
+.UseServiceProviderFactory(new AutofacServiceProviderFactory()) kodu eklenir.
+
+* Mimari altyapýna göre her katmanda ilgili class'larý register etmek için prefixÝlgiliKatmanProfile isimli class oluþtur.Profile'dan inherit alsýn.
+
+* Daha sonra bu register class'larýný IOC'imiz ile register etmek için Startup.cs'ye
+ConfigureContainer(ContainerBuilder containerBuilder) metodu oluþturulur.(void tipinde)
+
+* Bu metot içinde ilgili Ýþ profillerini 
+containerBuilder.RegisterModule(new prefixIlgiliModule()); ile register edebilirsin.
+
+* Api katmaný dýþýndaki katmanlarda Autofac için DependencyResolvers/Autofac dosyasýný oluþtur.(Kendi development kuralým)
+
+* PrefixÝlgiliKatmanModule isimli class'ýný oluþtur ve bunu Profile'dan inherit et.(Profile Autofac'i refereance almalý)
+
+* Bu class'lara aþaðýdaki þekilde register iþlemlerini gerçekleþtir.
+builder.RegisterType<ProductService>().As<IProductService>().InstancePerLifetimeScope();
+
+
+-> Autofac LifetimeScope'larý
+
+    Autofac                           Microsoft DI                                Açýklama
+    ---------------------------------------------------------------------------------------
+    InstancePerDependency()           ServiceLifetime.Transient                  Her nesne isteðinde, yeni bir instance döner
+    ---------------------------------------------------------------------------------------
+    InstancePerLifetimeScope()        ServiceLifetime.Scoped                     Her scope için tek bir instance yaratýr. Mesela bir web projesinde http   InstancePerRequest()                                                       request bir scope'tur. Sonlanana kadar hep ayný instance'ý döner.
+    --------------------------------------------------------------------------------------
+    SingleInstance()                  ServiceLifetime.Singleton                  Uygulama ayaða kalktýðýnda tek bir instance yaratýlýr ve hep bu instance                                                                               geri döner.
